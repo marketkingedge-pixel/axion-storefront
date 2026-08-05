@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axion — Domains, Hosting & More</title>
+<meta name="description" content="Search domains, launch a site, and host it — all under one brand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- GoDaddy domain-search widget base styles (load first so our theme can override) -->
+<link rel="stylesheet" href="assets/vendor/dashicons.min.css">
+<link rel="stylesheet" href="assets/vendor/store.css">
+
+<!-- Site design -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/widget-theme.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <svg viewBox="0 0 26 26" fill="none"><path d="M13 1L24 7V19L13 25L2 19V7L13 1Z" stroke="url(#g)" stroke-width="1.6"/><circle cx="13" cy="13" r="3.2" fill="url(#g)"/><defs><linearGradient id="g" x1="2" y1="1" x2="24" y2="25"><stop stop-color="#4cc9f0"/><stop offset="1" stop-color="#9d4edd"/></linearGradient></defs></svg>
+      AXION
+    </div>
+    <ul class="nav-links">
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#websites">Websites</a></li>
+      <li><a href="#hosting">Hosting</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#email">Email</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://sso.secureserver.net/?app=account&path=%2F&plid=598730&prog_id=598730&realm=idp&referrer=sso">Sign In</a>
+      <a class="btn btn-primary" href="https://sso.secureserver.net/account/create?app=account&path=%2F&plid=598730&prog_id=598730&realm=idp">Get Started</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="particles"></canvas>
+  <div class="wrap hero-inner">
+    <div class="eyebrow"><span class="dot"></span> DOMAINS · HOSTING · SECURITY · EMAIL</div>
+    <h1>Every empire starts<br>as a single <span class="accent">domain.</span></h1>
+    <p class="sub">Search, register, and launch — enterprise infrastructure underneath, one clean dashboard on top.</p>
+
+    <div class="search-card">
+      <!-- Real GoDaddy reseller domain search widget, tied to plid 598730 -->
+      <div
+        class="rstore-domain-search"
+        data-plid="598730"
+        data-base_url="secureserver.net"
+        data-page_size="5"
+        data-new_tab="true"
+        data-text_placeholder="yourbrand"
+        data-text_search="Search"
+      >Domain Search</div>
+    </div>
+  </div>
+</section>
+
+<div class="rail">
+  <div class="rail-inner">
+    <a class="rail-item" href="#domains"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18Z"/></svg>Domains</a>
+    <a class="rail-item" href="#websites"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg>Websites</a>
+    <a class="rail-item" href="#hosting"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg>Hosting</a>
+    <a class="rail-item" href="#security"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6l8-3Z"/></svg>Security</a>
+    <a class="rail-item" href="#email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6l9-6"/></svg>Email</a>
+    <a class="rail-item" href="#marketing"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11v2a2 2 0 0 0 2 2h1l3 4V5L6 9H5a2 2 0 0 0-2 2Z"/><path d="M15 8a4 4 0 0 1 0 8"/></svg>Marketing</a>
+  </div>
+</div>
+
+<section id="products">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">EVERYTHING IN ONE STOREFRONT</div>
+      <h2>Built for launching, not assembling.</h2>
+      <p>Six product families, one checkout, zero server management on your end.</p>
+    </div>
+
+    <div class="grid">
+
+      <div class="card reveal" id="domains">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18Z"/></svg></div>
+        <h3>Domains</h3>
+        <p>Registration, bulk search, and transfers across every major extension.</p>
+        <div class="card-foot"><span class="card-price">from $9.99<span>/yr</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/domain-registration">→</a></div>
+      </div>
+
+      <div class="card reveal" id="websites">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg></div>
+        <h3>Websites</h3>
+        <p>Drag-and-drop Website Builder or a managed WordPress install.</p>
+        <div class="card-foot"><span class="card-price">from $12.99<span>/mo</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/website-builder">→</a></div>
+      </div>
+
+      <div class="card reveal" id="hosting">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg></div>
+        <h3>Hosting</h3>
+        <p>cPanel, Hosting Plus, and VPS — scale as traffic grows.</p>
+        <div class="card-foot"><span class="card-price">from $7.99<span>/mo</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/business">→</a></div>
+      </div>
+
+      <div class="card reveal" id="security">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 5-3.5 8-8 9c-4.5-1-8-4-8-9V6l8-3Z"/></svg></div>
+        <h3>Security</h3>
+        <p>SSL, managed SSL service, website security, and automated backups.</p>
+        <div class="card-foot"><span class="card-price">from $4.99<span>/mo</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/website-security">→</a></div>
+      </div>
+
+      <div class="card reveal" id="email">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6l9-6"/></svg></div>
+        <h3>Professional Email</h3>
+        <p>Branded inboxes on your own domain, synced everywhere.</p>
+        <div class="card-foot"><span class="card-price">from $2.99<span>/mo</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/professional-email">→</a></div>
+      </div>
+
+      <div class="card reveal" id="marketing">
+        <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11v2a2 2 0 0 0 2 2h1l3 4V5L6 9H5a2 2 0 0 0-2 2Z"/><path d="M15 8a4 4 0 0 1 0 8"/></svg></div>
+        <h3>Marketing</h3>
+        <p>Email marketing campaigns and SEO tools to drive traffic.</p>
+        <div class="card-foot"><span class="card-price">from $9.99<span>/mo</span></span><a class="card-arrow" href="https://www.weareaxion.com/products/email-marketing">→</a></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="trust reveal">
+  <div class="trust-inner">
+    <div><div class="trust-num">99.9%</div><div class="trust-label">Uptime SLA</div></div>
+    <div><div class="trust-num">24/7</div><div class="trust-label">White-label support</div></div>
+    <div><div class="trust-num">50+</div><div class="trust-label">TLDs available</div></div>
+    <div><div class="trust-num">0</div><div class="trust-label">Servers you manage</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="cta reveal">
+    <div class="cta-panel">
+      <h2>Ready to put your name on it?</h2>
+      <p>Your storefront, your pricing, your brand — start with a domain search.</p>
+      <a class="btn btn-primary" href="https://sso.secureserver.net/account/create?app=account&path=%2F&plid=598730&prog_id=598730&realm=idp" style="padding:14px 30px; font-size:15px;">Get Started</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="logo" style="font-size:16px;">
+      <svg viewBox="0 0 26 26" fill="none" width="20" height="20"><path d="M13 1L24 7V19L13 25L2 19V7L13 1Z" stroke="url(#g2)" stroke-width="1.6"/><circle cx="13" cy="13" r="3.2" fill="url(#g2)"/><defs><linearGradient id="g2" x1="2" y1="1" x2="24" y2="25"><stop stop-color="#4cc9f0"/><stop offset="1" stop-color="#9d4edd"/></linearGradient></defs></svg>
+      AXION
+    </div>
+    <div class="foot-links">
+      <a href="https://www.weareaxion.com/legal-agreements">Legal</a>
+      <a href="https://www.weareaxion.com/legal-agreement?id=privacy">Privacy Policy</a>
+      <a href="https://www.secureserver.net/whois?plid=598730">WHOIS</a>
+      <a href="https://www.weareaxion.com/contact-us">Contact Us</a>
+      <a href="https://www.secureserver.net/help?pl_id=598730">Help</a>
+    </div>
+  </div>
+  <p class="foot-legal">Pricing excludes applicable taxes and ICANN fees. Domain registration services provided on behalf of an ICANN-accredited registrar.</p>
+</footer>
+
+<!-- React (peer deps required by the UMD build of GoDaddy's domain-search widget) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<!-- GoDaddy reseller domain search widget (self-built from godaddy/domain-search) -->
+<script src="assets/vendor/domain-search.umd.js"></script>
+<!-- Site behavior: particle background + scroll reveals -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

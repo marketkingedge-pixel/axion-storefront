@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------------ */
+/* Dark-theme overrides for GoDaddy's official domain-search widget.  */
+/* Loaded AFTER vendor/store.css and assets/css/style.css so these    */
+/* selectors win. Class names below come straight from store.css —   */
+/* keep this in sync if the vendor bundle is ever rebuilt/updated.    */
+/* ------------------------------------------------------------------ */
+
+.rstore-domain-search{
+  width:100%;
+  font-family:var(--body);
+  color:var(--text);
+}
+
+.rstore-domain-search .form-container{
+  width:100%;
+}
+
+.rstore-domain-search .search-form{
+  display:flex;
+  gap:8px;
+  width:100%;
+}
+
+.rstore-domain-search .search-form .search-field{
+  flex:1;
+  background:transparent;
+  border:1px solid var(--line);
+  border-radius:10px !important;
+  color:var(--text);
+  font-family:var(--mono);
+  font-size:16px;
+  padding:14px 16px;
+  height:auto;
+  line-height:normal;
+}
+.rstore-domain-search .search-form .search-field::placeholder{ color:#4c5280; }
+.rstore-domain-search .search-form .search-field:focus{ background:rgba(76,201,240,.06); outline:none; }
+
+.rstore-domain-search .search-form .search-submit,
+.rstore-domain-search .rstore-domain-buy-button,
+.rstore-domain-search button{
+  background:linear-gradient(135deg,var(--ion),var(--plasma)) !important;
+  color:#07091a !important;
+  border:none;
+  border-radius:10px !important;
+  padding:0 26px;
+  font-weight:600;
+  font-size:14.5px;
+  height:auto;
+  line-height:normal;
+}
+.rstore-domain-search .search-form .search-submit:hover,
+.rstore-domain-search .rstore-domain-buy-button:hover,
+.rstore-domain-search button:hover{
+  background:linear-gradient(135deg,var(--ion),var(--plasma)) !important;
+  opacity:.9;
+}
+
+.rstore-domain-search a{ color:var(--ion); }
+.rstore-domain-search a:visited{ color:var(--ion); }
+
+.rstore-domain-search .domain-result{
+  background:var(--bg-panel);
+  border:1px solid var(--line) !important;
+  border-radius:12px;
+  margin-top:12px;
+  color:var(--text);
+}
+.rstore-domain-search .rstore-exact-domain-list .domain-result{
+  border:1px solid rgba(76,201,240,.35) !important;
+}
+
+.rstore-domain-search .domain-name{ color:var(--text); font-weight:500; }
+.rstore-domain-search .pricing{ color:var(--muted); font-family:var(--mono); }
+.rstore-domain-search .listPrice{ color:#565c85; }
+
+.rstore-domain-search p.available{ color:var(--ok); }
+.rstore-domain-search p.not-available{ color:#8890b5; }
+.rstore-domain-search .rstore-message .rstore-success{ color:var(--ok); }
+.rstore-domain-search .rstore-message .rstore-error{ color:#f87171; }
+
+.rstore-domain-search .rstore-disclaimer{ color:#565c85; }
+.rstore-domain-search .rstore-disclaimer pre{ color:#565c85; }
+
+@media (max-width:1200px){
+  .rstore-domain-search .search-form .search-submit{
+    width:100%;
+    margin-top:8px;
+    padding:14px 0;
+  }
+  .rstore-domain-search .search-form{
+    flex-wrap:wrap;
+  }
+}
