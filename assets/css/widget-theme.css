@@ -39,7 +39,7 @@
 .rstore-domain-search .search-form .search-submit,
 .rstore-domain-search .rstore-domain-buy-button,
 .rstore-domain-search button{
-  background:linear-gradient(135deg,var(--ion),var(--plasma)) !important;
+  background:var(--brand-gradient) !important;
   color:#07091a !important;
   border:none;
   border-radius:10px !important;
@@ -52,7 +52,7 @@
 .rstore-domain-search .search-form .search-submit:hover,
 .rstore-domain-search .rstore-domain-buy-button:hover,
 .rstore-domain-search button:hover{
-  background:linear-gradient(135deg,var(--ion),var(--plasma)) !important;
+  background:var(--brand-gradient) !important;
   opacity:.9;
 }
 

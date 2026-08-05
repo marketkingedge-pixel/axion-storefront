@@ -29,14 +29,14 @@
         const a=points[i], b=points[j];
         const d = Math.hypot(a.x-b.x, a.y-b.y);
         if(d<120){
-          ctx.strokeStyle = `rgba(76,201,240,${(1-d/120)*.25})`;
+          ctx.strokeStyle = `rgba(110,250,216,${(1-d/120)*.22})`;
           ctx.lineWidth=1;
           ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke();
         }
       }
     }
     for(const p of points){
-      ctx.fillStyle='rgba(157,78,221,.55)';
+      ctx.fillStyle='rgba(199,125,255,.6)';
       ctx.beginPath(); ctx.arc(p.x,p.y,1.6,0,7); ctx.fill();
     }
     if(!reduced) requestAnimationFrame(draw);
