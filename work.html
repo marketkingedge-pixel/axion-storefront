@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axion — Our Work</title>
+<meta name="description" content="Web development, marketing, and digital ecosystems built by Axion — real projects, real results.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="assets/img/icon-mark.png" alt="Axion">
+      <span>AXION</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html#search">Search</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="https://www.weareaxion.com/products/domain-transfer">Transfer</a></li>
+      <li><a href="https://www.secureserver.net/domains/bulk-domain-search?plid=598730">Bulk Search</a></li>
+      <li><a href="https://www.secureserver.net/whois?plid=598730">WHOIS</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="https://sso.secureserver.net/?app=account&path=%2F&plid=598730&prog_id=598730&realm=idp&referrer=sso">Sign In</a>
+      <a class="btn btn-primary" href="https://sso.secureserver.net/account/create?app=account&path=%2F&plid=598730&prog_id=598730&realm=idp">Get Started</a>
+    </div>
+  </nav>
+</header>
+
+<section class="work-hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="dot"></span> WEB DEVELOPMENT · DIGITAL ECOSYSTEMS</div>
+    <h1>Built by someone who's actually done this.</h1>
+    <p>I left GoDaddy in 2018 and helped start Clickflame from there. Since then the work has been the same thread running through everything: rank the site, build the experience, lower the cost of every conversion. Creative marketing and client acquisition — not theory, the actual mechanics of getting a business found and chosen.</p>
+    <p>Axion is where that same approach now applies to domains and the infrastructure behind them. Here's some of the work.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="case-grid">
+
+      <div class="case reveal">
+        <div class="case-mark">C</div>
+        <div>
+          <div class="case-tag">CO-FOUNDED 2018</div>
+          <h3>Clickflame</h3>
+          <p>Started after leaving GoDaddy in 2018. Clickflame is a full-stack digital marketing agency — SEO, paid ads, web design, and local search — built around one goal: measurable growth. Over the years, the work has put hundreds of client websites on page one of Google, built digital experiences designed around conversion rather than decoration, and driven down cost-per-conversion across paid and organic channels.</p>
+          <a class="case-link" href="https://clickflame.com" target="_blank" rel="noopener">clickflame.com →</a>
+        </div>
+      </div>
+
+      <div class="case reveal">
+        <div class="case-mark">S</div>
+        <div>
+          <div class="case-tag">MOBILE AUTO REPAIR</div>
+          <h3>Supercanic</h3>
+          <p>A mobile mechanic and auto repair brand connecting customers with vetted technicians across Southern California — shop and mobile service alike. Built to rank for real local search intent ("mechanic near me," "mobile mechanic [city]") and to convert that traffic into booked jobs, Supercanic holds strong local search positions and brings in steady, high-intent organic traffic.</p>
+          <a class="case-link" href="https://supercanic.com" target="_blank" rel="noopener">supercanic.com →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="work-note reveal">
+      More projects — including MarketKing, InkCountry, Project Atlas, and Mechanic Rank — coming as details are confirmed.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta reveal">
+    <div class="cta-panel">
+      <h2>Want something built the same way?</h2>
+      <p>Domains, web development, or the whole digital ecosystem — start a conversation.</p>
+      <a class="btn btn-primary" href="https://www.weareaxion.com/contact-us" style="padding:14px 30px; font-size:15px;">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="logo" style="font-size:16px;">
+      <img src="assets/img/icon-mark.png" alt="Axion" style="height:26px;">
+      <span>AXION</span>
+    </div>
+    <div class="foot-links">
+      <a href="https://www.weareaxion.com/legal-agreements">Legal</a>
+      <a href="https://www.weareaxion.com/legal-agreement?id=privacy">Privacy Policy</a>
+      <a href="https://www.secureserver.net/whois?plid=598730">WHOIS</a>
+      <a href="https://www.weareaxion.com/contact-us">Contact Us</a>
+      <a href="https://www.secureserver.net/help?pl_id=598730">Help</a>
+    </div>
+  </div>
+  <p class="foot-legal">Pricing excludes applicable taxes and ICANN fees. Domain registration services provided on behalf of an ICANN-accredited registrar.</p>
+</footer>
+
+<script>
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(en => { if(en.isIntersecting) en.target.classList.add('in'); });
+  }, {threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
