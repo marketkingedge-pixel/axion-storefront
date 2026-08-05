@@ -136,6 +136,9 @@
   .grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
   @media (max-width:900px){ .grid{grid-template-columns:repeat(2,1fr);} }
   @media (max-width:620px){ .grid{grid-template-columns:1fr;} }
+  .grid-domains{grid-template-columns:repeat(4,1fr); max-width:1180px;}
+  @media (max-width:1000px){ .grid-domains{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:620px){ .grid-domains{grid-template-columns:1fr;} }
   .card{
     background:var(--bg-panel); border:1px solid var(--line); border-radius:16px;
     padding:28px; transition:transform .25s, border-color .25s, box-shadow .25s;
