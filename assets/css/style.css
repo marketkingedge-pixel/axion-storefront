@@ -228,6 +228,15 @@
   .case p{color:var(--muted); font-size:15px; line-height:1.7; margin-bottom:14px;}
   .case a.case-link{font-family:var(--mono); font-size:13.5px; color:var(--ion); display:inline-flex; align-items:center; gap:6px;}
   .case a.case-link:hover{color:var(--mint);}
+  .case-stat{
+    display:inline-flex; align-items:baseline; gap:8px; margin-bottom:16px;
+    font-family:var(--display); font-size:26px; font-weight:700;
+    background:var(--brand-gradient); -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .case-stat span{
+    font-family:var(--body); font-size:13px; font-weight:500; color:var(--muted);
+    -webkit-background-clip:initial; background-clip:initial;
+  }
 
   .work-note{
     margin-top:44px; padding:22px 26px; border:1px dashed var(--line); border-radius:14px;
