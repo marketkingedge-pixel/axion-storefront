@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------ */
-/* Dark-theme overrides for GoDaddy's official domain-search widget.  */
+/* Light-theme overrides for GoDaddy's official domain-search widget. */
 /* Loaded AFTER vendor/store.css and assets/css/style.css so these    */
 /* selectors win. Class names below come straight from store.css —   */
 /* keep this in sync if the vendor bundle is ever rebuilt/updated.    */
@@ -34,7 +34,7 @@
   line-height:normal;
 }
 .rstore-domain-search .search-form .search-field::placeholder{ color:#4c5280; }
-.rstore-domain-search .search-form .search-field:focus{ background:rgba(76,201,240,.06); outline:none; }
+.rstore-domain-search .search-form .search-field:focus{ background:rgba(2,132,199,.06); outline:none; }
 
 .rstore-domain-search .search-form .search-submit,
 .rstore-domain-search .rstore-domain-buy-button,
@@ -56,8 +56,8 @@
   opacity:.9;
 }
 
-.rstore-domain-search a{ color:var(--ion); }
-.rstore-domain-search a:visited{ color:var(--ion); }
+.rstore-domain-search a{ color:var(--ion-deep); }
+.rstore-domain-search a:visited{ color:var(--ion-deep); }
 
 .rstore-domain-search .domain-result{
   background:var(--bg-panel);
@@ -67,7 +67,7 @@
   color:var(--text);
 }
 .rstore-domain-search .rstore-exact-domain-list .domain-result{
-  border:1px solid rgba(76,201,240,.35) !important;
+  border:1px solid rgba(2,132,199,.3) !important;
 }
 
 .rstore-domain-search .domain-name{ color:var(--text); font-weight:500; }
